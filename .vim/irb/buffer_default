@@ -1,0 +1,5 @@
+class Dataset
+ attr_accessor :can_see
+ private
+ attr_accessor :cant_see
+end

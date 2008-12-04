@@ -1,0 +1,4 @@
+Merb::Mailer.new :to => 'matt.austin@webfirm.com',
+                 :from => 'colin@webfirm.com.au',
+                 :subject => 'Finally can has mail!',
+                 :html => "lolcats"

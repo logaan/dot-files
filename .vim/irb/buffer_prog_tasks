@@ -1,0 +1,7 @@
+require "lighthouse"
+include Lighthouse
+
+Lighthouse.account = 'webfirm'
+Lighthouse.authenticate 'colin@webfirm.com.au', 'colinc00'
+
+Project.find(19139)

@@ -1,0 +1,4 @@
+require "rexml/document"
+require "../reportless"
+urchin_data_path = File.join(File.dirname(__FILE__), "test_data", "heidelbergcakes_urchindata.xml")
+URCHIN_DATA = REXML::Document.new(File.read(urchin_data_path)).root

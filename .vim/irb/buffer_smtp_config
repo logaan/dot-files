@@ -1,0 +1,5 @@
+Merb::Mailer.config = {
+  :host   => 'mail.corp.cbm.net',
+  :port   => 25
+}
+

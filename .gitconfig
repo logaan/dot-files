@@ -1,0 +1,22 @@
+[user]
+	name = Colin Campbell-McPherson
+	email = colin@logaan.net
+
+[alias]
+	ci = commit -a
+	co = checkout
+	st = status -a
+
+[apply]
+	whitespace = strip
+
+[diff]
+	color = auto
+	rename = copy 
+
+[pager]
+	color = true 
+
+[status]
+	color = auto
+

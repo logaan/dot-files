@@ -1,0 +1,8 @@
+class Foo
+  def shown= value
+    self.hidden = value
+  end
+
+ private
+  attr_accessor :hidden
+end
